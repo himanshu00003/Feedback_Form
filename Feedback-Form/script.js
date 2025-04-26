@@ -1,6 +1,6 @@
 // FireBase Integration
 const firebaseConfig = {
-    databaseURL: "https://feedbackform.firebaseio.com/",
+    databaseURL: "https://feedback-form-masai-default-rtdb.firebaseio.com/",
   };
   firebase.initializeApp(firebaseConfig);
   const db = firebase.database().ref('feedbacks');
